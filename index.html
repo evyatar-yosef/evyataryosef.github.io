@@ -27,7 +27,6 @@
                 <ul class="nav-list">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
-                    <!-- ✅ New -->
                     <li><a href="#experience">Experience</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
@@ -65,8 +64,6 @@
                 </p>
                 <p>I have completed Make accademy for automation.</p>
                 <p>I finish an online QA course.</p>
-
-                <!-- ✅ New community line -->
                 <p><strong>Community:</strong> I volunteer as a software developer at <em>mashlom</em>, building tools that help hospital staff work faster and safer.</p>
             </div>
 
@@ -134,33 +131,26 @@
         <div class="container experience-container">
             <h1>Experience</h1>
             <div class="timeline">
-            <div class="exp-item">
-                <div class="exp-dot" aria-hidden="true"></div>
-
-                <article class="exp-card">
-                <header class="exp-header">
-                    <h3 class="exp-title">
-                    Volunteer Software Developer
-                    </h3>
-                    <p class="exp-meta">mashlom • 2025 – Present • Remote</p>
-                </header>
-
-                <p class="exp-summary">
-                    Contributing to <strong>mashlom.me</strong>, a non-profit initiative that builds tools to help hospital teams manage clinical protocols and cases more efficiently.
-                </p>
-
-                <ul class="exp-bullets">
-                    <li>Contributing across the application suite: assisting with feature development, troubleshooting, and ensuring system integrity and reliable operation.</li>
-                    <li><strong>Technologies I use:</strong> Node.js (Express), React, REST APIs, Git &amp; CI/CD, Azure Email.</li>
-                </ul>
-
-                <div class="exp-actions">
-                    <a class="project-button" href="https://my-stg.mashlom.me/welcome" target="_blank" rel="noopener">View</a>
+                <div class="exp-item">
+                    <div class="exp-dot" aria-hidden="true"></div>
+                    <article class="exp-card">
+                        <header class="exp-header">
+                            <h3 class="exp-title">Volunteer Software Developer</h3>
+                            <p class="exp-meta">mashlom • 2025 – Present • Remote</p>
+                        </header>
+                        <p class="exp-summary">
+                            Contributing to <strong>mashlom.me</strong>, a non-profit initiative that builds tools to help hospital teams manage clinical protocols and cases more efficiently.
+                        </p>
+                        <ul class="exp-bullets">
+                            <li>Contributing across the application suite: assisting with feature development, troubleshooting, and ensuring system integrity and reliable operation.</li>
+                            <li><strong>Technologies I use:</strong> Node.js (Express), React, REST APIs, Git &amp; CI/CD, Azure Email.</li>
+                        </ul>
+                        <div class="exp-actions">
+                            <a class="project-button" href="https://my-stg.mashlom.me/welcome" target="_blank" rel="noopener">View</a>
+                        </div>
+                    </article>
                 </div>
-                </article>
             </div>
-            </div>
-
         </div>
     </section>
 
@@ -170,6 +160,53 @@
             <h1>My Projects</h1>
 
             <div class="projects-section">
+                <!-- 1) EzChat – AI Chat Assistant -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="chat_ai.png" alt="EzChat – AI Chat Assistant preview" />
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">EzChat – AI Chat Assistant</h3>
+                        <p class="project-description">
+                            Multi-tenant AI chatbot platform that lets website owners embed custom assistants trained on their own data.
+                            Backend built with FastAPI and tenant isolation, embedding pipeline (chunk → embed → index) using FastEmbed + Hugging Face,
+                            fallback inference with Gemma-2, and integration with Google Gemini 2.0 & Render. Includes a responsive dashboard for datasets,
+                            chat logs and configuration.
+                        </p>
+                        <a href="https://github.com/evyatar-yosef/ezchat" target="_blank" class="project-button" rel="noopener">View Project</a>
+                    </div>
+                </div>
+
+                <!-- 2) Blockchain-Based Voting Management -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="blockchain voting.jpg" alt="Blockchain voting system preview" />
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Blockchain-Based Voting Management</h3>
+                        <p class="project-description">
+                            Developed a decentralized web platform for internal company voting using Solidity and the Ethereum blockchain.
+                            Deployed smart contracts to ensure voting transparency and immutability.
+                        </p>
+                        <a href="https://github.com/roni5604/company-voting-system" target="_blank" class="project-button" rel="noopener">View Project</a>
+                    </div>
+                </div>
+
+                <!-- 3) EZstudy -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="ezstudy.png" alt="EZstudy app mockup" />
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">EZstudy</h3>
+                        <p class="project-description">
+                            Mobile study assistant application designed to help students find and connect with private tutors, featuring in-app scheduling, direct messaging, and seamless management of appointments.
+                        </p>
+                        <a href="https://github.com/evyatar-yosef/EZstudy" target="_blank" class="project-button" rel="noopener">View Project</a>
+                    </div>
+                </div>
+
+                <!-- 4) AI-based Squat Evaluation System -->
                 <div class="project-card">
                     <div class="project-image">
                         <img src="squat_ai.png" alt="Squat Analyzer screenshot" />
@@ -184,6 +221,7 @@
                     </div>
                 </div>
 
+                <!-- 5) Deep Learning - Image Classification Model -->
                 <div class="project-card">
                     <div class="project-image">
                         <img src="dl.webp" alt="Deep Learning digits example" />
@@ -194,33 +232,6 @@
                             Deep learning image classification model using TensorFlow, OpenCV, and pandas to achieve high accuracy on handwritten digit recognition (MNIST dataset), implementing an optimized CNN architecture.
                         </p>
                         <a href="https://github.com/evyatar-yosef/Handwritten-Digit-Recognition-with-Neural-Network" target="_blank" class="project-button" rel="noopener">View Project</a>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="ezstudy.png" alt="EZstudy app mockup" />
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title">EZstudy</h3>
-                        <p class="project-description">
-                            Mobile study assistant application designed to help students find and connect with private tutors, featuring in-app scheduling, direct messaging, and seamless management of appointments.
-                        </p>
-                        <a href="https://github.com/evyatar-yosef/EZstudy" target="_blank" class="project-button" rel="noopener">View Project</a>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="blockchain voting.jpg" alt="Blockchain voting system preview" />
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title">Blockchain-Based Voting Management</h3>
-                        <p class="project-description">
-                            Developed a decentralized web platform for internal company voting using Solidity and the Ethereum blockchain.
-                            Deployed smart contracts to ensure voting transparency and immutability.
-                        </p>
-                        <a href="https://github.com/roni5604/company-voting-system" target="_blank" class="project-button" rel="noopener">View Project</a>
                     </div>
                 </div>
             </div>
